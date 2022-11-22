@@ -11,7 +11,7 @@ import com.kaffotek.nyang.security.AppProperties;
 
 @SpringBootApplication
 public class NyangApplication extends SpringBootServletInitializer{
-	
+	//Main Application
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(NyangApplication.class);
